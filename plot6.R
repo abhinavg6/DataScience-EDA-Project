@@ -1,4 +1,4 @@
-plot26 <- function() {
+plot6 <- function() {
     
     # Read the PM summary data - takes time because of large file
     neidata <- readRDS("summarySCC_PM25.rds")
@@ -34,7 +34,7 @@ plot26 <- function() {
                   "LA-2005", "BC-2005", "LA-2008", "BC-2008"))
 
     # Copy the plot to a png device
-    dev.copy(png, file="plot26.png")
+    dev.copy(png, file="plot6.png")
     # Turn the png device off
     dev.off()
 }

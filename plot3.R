@@ -1,4 +1,4 @@
-plot23 <- function() {
+plot3 <- function() {
     # Load the plyr library to use the ddply function
     library(plyr)
     # Load the ggplot2 library to draw a ggplot plot
@@ -24,7 +24,7 @@ plot23 <- function() {
     print(neiplot)
     
     # Copy the plot to a png device
-    dev.copy(png, file="plot23.png")
+    dev.copy(png, file="plot3.png")
     # Turn the png device off
     dev.off()
 }

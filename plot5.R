@@ -1,4 +1,4 @@
-plot25 <- function() {
+plot5 <- function() {
     # Load the plyr library to use the ddply function
     library(plyr)
 
@@ -36,7 +36,7 @@ plot25 <- function() {
     with(neisccdf, lines(year, sum))
 
     # Copy the plot to a png device
-    dev.copy(png, file="plot25.png")
+    dev.copy(png, file="plot5.png")
     # Turn the png device off
     dev.off()
 }
